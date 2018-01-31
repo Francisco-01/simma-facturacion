@@ -1,172 +1,172 @@
-body .container h1,body .container h2,body .container h3,body .container h4,body .container h5,body .container h6
-{
-	color: #00B2E6;
-}
-body .container
-{
-	color: #738189;
-}
-.barra_navegacion
-{
-	background-color: rgb(50,50,50);
-	/*opacity: 0.50;
-	-moz-opacity: 0.50;
-	filter: alpha(opacity=50);*/
-	overflow: visible;
-	height: 80px;
-	position: relative;
-	margin-bottom: 0px;
-}
-.logo_simma
-{
-	vertical-align: middle;
-	height: 55px;
-	border: none;
-	display: inline-block;
-	margin-top: 15px;
-}
-.menu_principal
-{
-	margin-top: 25px;
-}
-.fuente_reducida
-{
-	font-size: 75%;
-}
-
-.menuCreacion th
-{
-	text-align: left;
-}
-.menuCreacion td
-{
-	text-align: center;
-	padding-bottom: 5px;
-}
-@media print
-{
-	div.barra_navegacion, div.btn-toolbar.pull-right
-	{
-		display: none;
-	}
-	div.container
-	{
-		font-size: 10px;
-	}
-	.noImprimir
-	{
-		display: none;
-	}
-}
-
-table.Reporte
-{
-	font-size: smaller;
-}
-table.Reporte th
-{
-	text-align: left;
-}
-#parametros
-{
-	display: none;
-}
-.numero
-{
-	text-align: right;
-}
-.arriba
-{
-	vertical-align: top;
-}
-.abajo
-{
-	vertical-align: bottom !important;
-}
-.ancho45pc
-{
-	width: 45%;
-}
-.calendarioEnd
-{
-	clear: both;
-}
-.mesCalendario
-{
-	float: left;
-	margin: 5px;
-	height: 275px;
-}
-.mesCalendario table
-{
-	border: 1px solid gray;
-	border-collapse: collapse;
-}
-.mesCalendario table th
-{
-	text-align: center;
-	border: 1px solid gray;
-}
-.mesCalendario table td
-{
-	width: 65px;
-	border: 1px solid gray;
-	text-align: center;
-	height: 36px;
-	vertical-align: top;
-}
-
-.mesCalendario table td div.contCalendario
-{
-	font-size: 75%;
-	text-align: center;
-	background-color: gray;
-	color: white;
-}
-
-div.saltoPagina
-{
-	display: none;
-}
-
-@media print
-{
-	.mesCalendario
-	{
-		page-break-inside: avoid;
-		height: 250px;
-	}
-	.mesCalendario table td
-	{
-		width: 45px;
-		height: 30px;
-		overflow: hidden;
-	}
-	.mesCalendario p
-	{
-		display: none;
-	}
-	div.saltoPagina
-	{
-		display: block;
-		page-break-before: always;
-	}
-}
-
-div.dataListSupercontainer
-{
-	min-width: 400px;
-	max-width: 750px;
-	height: 350px;
-	overflow: scroll;
-	padding: 5px;
-}
-div.dataListSupercontainerParent
-{
-	min-width: 400px;
-	max-width: 750px;
-}
-div.dataListSupercontainerSearcher
-{
-	margin-bottom: 10px;
+body .container h1,body .container h2,body .container h3,body .container h4,body .container h5,body .container h6
+{
+	color: #00B2E6;
+}
+body .container
+{
+	color: #738189;
+}
+.barra_navegacion
+{
+	background-color: rgb(50,50,50);
+	/*opacity: 0.50;
+	-moz-opacity: 0.50;
+	filter: alpha(opacity=50);*/
+	overflow: visible;
+	height: 80px;
+	position: relative;
+	margin-bottom: 0px;
+}
+.logo_simma
+{
+	vertical-align: middle;
+	height: 55px;
+	border: none;
+	display: inline-block;
+	margin-top: 15px;
+}
+.menu_principal
+{
+	margin-top: 25px;
+}
+.fuente_reducida
+{
+	font-size: 75%;
+}
+
+.menuCreacion th
+{
+	text-align: left;
+}
+.menuCreacion td
+{
+	text-align: center;
+	padding-bottom: 5px;
+}
+@media print
+{
+	div.barra_navegacion, div.btn-toolbar.pull-right
+	{
+		display: none;
+	}
+	div.container
+	{
+		font-size: 10px;
+	}
+	.noImprimir
+	{
+		display: none;
+	}
+}
+
+table.Reporte
+{
+	font-size: smaller;
+}
+table.Reporte th
+{
+	text-align: left;
+}
+#parametros
+{
+	display: none;
+}
+.numero
+{
+	text-align: right;
+}
+.arriba
+{
+	vertical-align: top;
+}
+.abajo
+{
+	vertical-align: bottom !important;
+}
+.ancho45pc
+{
+	width: 45%;
+}
+.calendarioEnd
+{
+	clear: both;
+}
+.mesCalendario
+{
+	float: left;
+	margin: 5px;
+	height: 275px;
+}
+.mesCalendario table
+{
+	border: 1px solid gray;
+	border-collapse: collapse;
+}
+.mesCalendario table th
+{
+	text-align: center;
+	border: 1px solid gray;
+}
+.mesCalendario table td
+{
+	width: 65px;
+	border: 1px solid gray;
+	text-align: center;
+	height: 36px;
+	vertical-align: top;
+}
+
+.mesCalendario table td div.contCalendario
+{
+	font-size: 75%;
+	text-align: center;
+	background-color: gray;
+	color: white;
+}
+
+div.saltoPagina
+{
+	display: none;
+}
+
+@media print
+{
+	.mesCalendario
+	{
+		page-break-inside: avoid;
+		height: 250px;
+	}
+	.mesCalendario table td
+	{
+		width: 45px;
+		height: 30px;
+		overflow: hidden;
+	}
+	.mesCalendario p
+	{
+		display: none;
+	}
+	div.saltoPagina
+	{
+		display: block;
+		page-break-before: always;
+	}
+}
+
+div.dataListSupercontainer
+{
+	min-width: 400px;
+	max-width: 750px;
+	height: 350px;
+	overflow: scroll;
+	padding: 5px;
+}
+div.dataListSupercontainerParent
+{
+	min-width: 400px;
+	max-width: 750px;
+}
+div.dataListSupercontainerSearcher
+{
+	margin-bottom: 10px;
 }
